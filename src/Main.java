@@ -4,10 +4,9 @@ public class Main {
     }
     public static void task1() {
         int i = 1;
-        while (i <= 10)
-            for (int n = 10; n >= 1; n--)
+        while (i <= 10) 
             System.out.print(i ++);
-                System.out.println(n --);
+
 
 
     }
