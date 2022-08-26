@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        task2();
+        task3();
     }
 
     public static void task1() {
@@ -21,4 +21,14 @@ public class Main {
             System.out.println("Сегодня пятница" + currentFriday + "-е число необходимо подготовить отчет.");
         }
     }
-}
+
+    public static void task3() {
+        int currentYear = 2022;
+        int start = currentYear - 200;
+        int end = currentYear + 100;
+        for (int i = start; i <= end; i++) {
+            if (i % 79 == 0) {
+                System.out.println(i);
+            }
+        }
+    }}
