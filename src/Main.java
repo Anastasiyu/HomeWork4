@@ -3,11 +3,15 @@ public class Main {
         task1();
     }
     public static void task1() {
-        int i = 1;
-        while (i <= 10) 
-            System.out.print(i ++);
+        int i = 0;
+        while (i < 10) {
+            System.out.print(++i + " ");
 
-
+        }
+        System.out.println(" ");
+        for(; i > 0; i --) {
+            System.out.print(i + " ");
+        }
 
     }
     }
